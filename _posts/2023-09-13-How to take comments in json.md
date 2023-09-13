@@ -46,15 +46,15 @@ There is a thought but no way to implement yet.
 
 before we use the function prettier
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e468a43-7ff8-4459-ac9c-a77c13dac69c/Untitled.png)
+![prettierBefore](/assets/how-to-take-commonts-in-json/image1.png)
 
 then after
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef19e81b-abc3-43fa-b2a3-31e20fe361c1/Untitled.png)
+![prettierAfter](/assets/how-to-take-commonts-in-json/image2.png)
 
 As you can see, we get the ideally json format.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a360c7f7-b45c-40b4-b9c1-a0d8e20b2a79/Untitled.png)
+![format](/assets/how-to-take-commonts-in-json/image3.png)
 
 For that ideally output, I found the shot for that, though you maybe thinking it’s a little bit hack.  But what I wanted was that let the function run first.
 
@@ -78,7 +78,7 @@ getObject(jsonminify(strin))
 
 We can take a look on the result.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/891a5380-f3a6-4848-8861-15ed0743c963/Untitled.png)
+![result](/assets/how-to-take-commonts-in-json/image4.png)
 
 Sum up, maybe we can detect the json correct or nor, but we can get the right format json from javascript file, it’s well for us to be continue done the function.
 
@@ -94,7 +94,7 @@ For example like that:  `/api/v1/config/jsonComment?raw=1`
 
 Then we get the data don’t get through the comments remove process.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60d9c128-bf56-44a8-84f2-e8438615bd8c/Untitled.png)
+![remove](/assets/how-to-take-commonts-in-json/image5.png)
 
 And if you don’t pass the query to it, it’ll return the json to you as usually as it does. 
 
